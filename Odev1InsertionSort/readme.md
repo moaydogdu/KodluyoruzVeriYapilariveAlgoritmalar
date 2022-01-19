@@ -39,7 +39,7 @@ Dolayısıyla  O(n^2)
 
 Bu kısımda sorunun soruluş biçimi hatalı. Biz search değil sort işlemi yapıyoruz. Sayı aramıyoruz. Dolayısıyla Insertion sort hesaplamasında aradığımız bir sayı yok, ortada başta olması durumu da yok.
 
-- Best Case : Dizinin zaten küçükten büyüğe sıralı verilmesi. Böyle bir durumda yapılacak tek şey sıralı çubuğunu sola kaydırmak. N tane sayı üzerinden geçeriz. O(n)
+- Best Case : Dizinin zaten küçükten büyüğe sıralı verilmesi. Böyle bir durumda yapılacak tek şey sıralı  çubuğunu sağa kaydırmak. N tane sayı üzerinden geçeriz. O(n)
 - Worst Case : Dizinin Büyükten küçüğe sıralı verilmesi. O(n^2)
 - Average Case : Best case ile worst case'in ortalamasıdır. = (n+n^2)/2 = (n.(n+1))/2 = O(n^2)
 
